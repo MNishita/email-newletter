@@ -158,6 +158,25 @@ footer {
 /*footer end*/
 
 /* Responsiveness */
+@media (max-width: 1340px) {
+    .main .container .main-col {
+        float: none;
+        width: 100%;
+    }
+    .main .sidebar {
+        float: none;
+        margin: auto;
+        width: min-content;
+    }
+    .main .sidebar form {
+        margin: 0.5rem;
+    }
+    .main .sidebar form input,
+    .main .sidebar form textarea{
+        margin: 0.5rem 0;
+    }
+}
+
 @media (max-width: 768px) {
     header .branding,
     header nav,
