@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800;900&display=swap');
+
+*, 
+*::after, 
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header start */
+header {
+    background-color: #353637;
+    color: #ffffff;
+    padding: 1rem;
+    min-height: 2rem;
+    border-bottom: 5px solid #32a0c2;
+    cursor: pointer;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 1.5rem;
+}
+
+header .branding{
+    float: left;
+}
+
+header .branding h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+header nav{
+    float: right;
+    margin-top: 0.4rem;
+}
+
+header nav ul li a {
+    color: #cccccc;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header nav ul li a.active {
+    color: #32a0c2;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #32a0c2;
+    font-weight: bold;
+}
+/*Header end */
+
+/*Main start */
+.main {
+    margin: 1rem 0;
+}
+
+.main .main-col h1 {
+    margin-bottom: 1rem;
+}
+
+.main .box, .blue {
+    background-color: #32a0c2;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.main .container .main-col {
+    float: left;
+    width: 70%;
+}
+
+.main .container .main-col h3 {
+    margin-top: 0.9rem;
+    border-bottom: 1px solid #353637;
+}
+
+.main .container .main-col p {
+    padding: 1rem 0;
+}
+
+.main .sidebar {
+    float: right;
+    width: 25%;
+}
+
+.main .sidebar h3 {
+    margin: 0.7rem 0;
+}
+
+.main .sidebar form {
+    font-weight: 600;
+}
+
+.main .sidebar input[type = "text"],[type = "email"] {
+    padding: 0.4rem;
+    height: 1.6rem;
+    width: 15rem;
+    border: 0;
+}
+
+.main .sidebar form .message {
+    width: 15rem;
+}
+
+.main .sidebar input[type = "text"],[type = "email"]:focus {
+    outline: none;
+}
+
+.main .sidebar form .message:focus {
+    outline: none;
+}
+
+.main .sidebar .btn {
+    padding: 0.7rem 1rem;
+    background-color: #cccccc;
+}
+/* Main end */
+
+/*footer start*/
+footer {
+    padding: 1.5rem;
+    margin-top: 1rem;
+    color: #fff;
+    background-color: #32a0c2;
+    text-align: center;
+    font-size: 1rem;
+}
+/*footer end*/
