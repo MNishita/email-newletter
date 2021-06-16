@@ -156,3 +156,14 @@ footer {
     font-size: 1rem;
 }
 /*footer end*/
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    header .branding,
+    header nav,
+    header nav li {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
