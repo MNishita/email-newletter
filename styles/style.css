@@ -8,10 +8,6 @@
     box-sizing: border-box;
 }
 
-html {
-    font-size: 16px;
-}
-
 body {
     font-family: 'Poppins', sans-serif;
     padding: 0;
@@ -20,124 +16,101 @@ body {
 }
 
 .container {
-    width: 85%;
+    width: 80%;
     margin: auto;
     overflow: hidden;
 }
 
+/* Header start */
 header {
-    margin-top: 40px;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
-}
-
-li {
-    list-style: none;
-    font-size: 1rem;
-    color: #fff;
-}
-
-.btn {
-    height: 2.3rem;
-    /* background-color: #ccc; */
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    width: 5rem;
-    padding: 5px 10px;
-    cursor: pointer;
-    text-align: center;
-}
-
-nav {
     background-color: #353637;
-    color: #fff;
-    padding: 2rem 0;/*1rem = 16px*/
-    min-height: 4.5rem;
-    border: 3px solid #32a0c2;
+    color: #ffffff;
+    padding: 1rem;
+    min-height: 2rem;
+    border-bottom: 5px solid #32a0c2;
+    cursor: pointer;
 }
 
-nav a {
-    text-transform: uppercase;
-}
-
-nav li {
+header li {
     float: left;
     display: inline;
     padding: 0 1.5rem;
 }
 
-nav .branding a {
+header .branding{
+    float: left;
+}
+
+header .branding h1 {
     margin: 0;
-    font-size: 1.3rem;
-    font-weight: 800;
-    margin-top: 0.8rem;
+    font-size: 1.5rem;
 }
 
-nav .branding a i {
-    margin-right: 0.5rem;
-    color: #32a0c2;
-}
-
-nav ul {
+header nav{
     float: right;
-    margin-top: 0.8rem;
+    margin-top: 0.4rem;
 }
 
-nav ul li a.active {
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header nav ul li a.active {
     color: #32a0c2;
-    font-weight: 600;
+    font-weight: bold;
 }
 
-nav ul li a.hover {
-    color: #32a0c2;
-    font-weight: 600;
+header nav ul li a:hover {
+    color: #cccccc;
+    font-weight: bold;
 }
+/*Header end */
 
-header {
+/*Showcase start*/
+.showcase {
     margin: 0;
-    min-height: 35rem;
-    background: url(../images/image1.jpeg) no-repeat center;
+    min-height: 23rem;
+    background: url(../images/web\ dev-NEW.jpg) no-repeat center;
     background-size: cover;
     text-align: center;
     color: #fff;
 }
 
-header h1 {
-    margin-top: 6rem;
-    font-size: 3rem;
+.showcase h1 {
+    margin-top: 5rem;
+    font-size: 3.5rem;
     margin-bottom: 1rem;
 }
 
-header p {
-    font-size: 1.3rem;
-    line-height: 1.5rem;
+.showcase p {
+    font-size: 1rem;
+    line-height: 1.6rem;
     text-align: center;
 }
+/*Showcase end*/
 
+/*Newsletter start*/
 .news-letter {
-    padding: 1rem;
+    padding: 1.2rem;
     color: #fff;
     background-color: #353637;
 }
 
 .news-letter h2 {
     float: left;
+    font-size: 21px;
 }
 
 .news-letter form {
     float: right;
-    margin-top: 0.3rem;
+    margin-top: 0.1rem;
 }
 
 .news-letter input[type = "email"] {
-    padding: 0.5rem;
-    height: 2.5rem;
-    width: 18rem;
-    border-radius: 4px;
+    padding: 0.4rem;
+    height: 1.8rem;
+    width: 16rem;
     border: 0;
 }
 
@@ -149,22 +122,28 @@ header p {
     background-color: #32a0c2;
     border-color: #32a0c2;
     color: #fff;
+    font-size: small;
+    padding: 0.3rem;
+    cursor: pointer;
 }
+/*Newsletter end*/
 
+/*cards/boxes start*/
 .cards {
-    padding: 2rem 0;
-    margin: 2rem 0;
+    padding: 1rem 0 1rem 0;
+    margin: 1.5rem 0;
 }
 
 .cards .container{
     display: flex;
     flex-direction: row;
     text-align: center;
+    width: 85%;
 }
 
 .cards .container .card {
-    width: 30%;
-    margin: 0 1rem;
+    width: 60%;
+    margin: 0;
     padding: 0 0.5rem;
 }
 
@@ -178,15 +157,19 @@ header p {
     padding-bottom: 1rem;
 }
 
-cards .container .card p {
+.cards .container .card p {
     padding-bottom: 1rem;
+    font-size: 0.8rem;
 }
+/*cards/boxes start*/
 
+/*footer start*/
 footer {
-    padding: 1rem;
+    padding: 1.5rem;
     margin-top: 1rem;
     color: #fff;
     background-color: #32a0c2;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
+/*footer end*/
