@@ -123,6 +123,9 @@ footer {
         text-align: center;
         width: 100%;
     }
+    header li {
+        padding: 0.5rem;
+    }
     .main .container .main-col,
     .main .sidebar {
         float: none;
