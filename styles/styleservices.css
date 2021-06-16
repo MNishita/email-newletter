@@ -97,6 +97,17 @@ header nav ul li a:hover {
     padding: 1rem 0;
 }
 
+.main .container .main-col span {
+    background-color: #ffffff;
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.main .container .main-col span:hover {
+    background-color: #cccccc;
+}
+
 .main .sidebar {
     float: right;
     width: 25%;
